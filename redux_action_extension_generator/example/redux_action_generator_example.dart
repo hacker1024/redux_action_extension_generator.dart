@@ -16,7 +16,7 @@ import 'package:redux/redux.dart' show Store;
 import 'package:example_package/src/redux/actions/example_file.dart';
 
 extension ExampleFileActionExtensions on Store {
-  void example(String exampleValue) => dispatch(ExampleAction(exampleValue));
-  void exampleDefaultValue() => dispatch(const ExampleAction.defaultValue());
+  void exampleAction(String exampleValue) => dispatch(ExampleAction(exampleValue));
+  void exampleActionDefaultValue() => dispatch(const ExampleAction.defaultValue());
 }
  */
