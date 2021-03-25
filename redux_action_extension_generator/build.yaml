@@ -1,0 +1,14 @@
+builders:
+  redux_action_extension_generator:
+    import: 'package:redux_action_extension_generator/builder.dart'
+    builder_factories: [reduxActionExtensionBuilder]
+    build_extensions: {'.dart': ['.action_extensions.dart']}
+    auto_apply: dependents
+    build_to: source
+    applies_builders: [source_gen]
+    defaults:
+      options:
+        state_type:
+        state_import_path:
+        remove_action_prefix: false
+        remove_action_suffix: false

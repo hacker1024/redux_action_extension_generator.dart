@@ -1,0 +1,10 @@
+name: redux_action_extension_annotation
+description: A starting point for Dart libraries or applications.
+version: 0.1.0
+homepage: https://github.com/hacker1024/redux_action_extension_generator.dart/tree/master/redux_action_extension_annotation
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dev_dependencies:
+  lint: ^1.5.3

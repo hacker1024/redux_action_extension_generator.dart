@@ -1,0 +1,20 @@
+name: redux_action_extension_generator
+description: A code generator to generate extension functions to dispatch Redux actions.
+version: 0.1.0
+homepage: https://github.com/hacker1024/redux_action_extension_generator.dart/tree/master/redux_action_extension_generator
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  analyzer: ^1.3.0
+  build: ^2.0.0
+  code_builder: ^3.7.0
+  path: ^1.8.0
+  recase: ^4.0.0-nullsafety.0
+  redux_action_extension_annotation:
+    path: '../redux_action_extension_annotation'
+  source_gen: ^1.0.0
+
+dev_dependencies:
+  lint: ^1.5.3
