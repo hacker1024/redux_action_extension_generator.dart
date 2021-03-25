@@ -1,5 +1,5 @@
 name: redux_action_extension_annotation
-description: A starting point for Dart libraries or applications.
+description: Annotations for use with package:redux_action_extension_generator.
 version: 0.1.0
 homepage: https://github.com/hacker1024/redux_action_extension_generator.dart/tree/master/redux_action_extension_annotation
 
