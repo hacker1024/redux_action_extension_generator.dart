@@ -12,8 +12,7 @@ dependencies:
   code_builder: ^3.7.0
   path: ^1.8.0
   recase: ^4.0.0-nullsafety.0
-  redux_action_extension_annotation:
-    path: '../redux_action_extension_annotation'
+  redux_action_extension_annotation: ^0.1.0
   source_gen: ^1.0.0
 
 dev_dependencies:
